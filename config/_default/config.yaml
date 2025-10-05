@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: "Constanza Valenzuela — Portafolio"
+title: "Constanza Valenzuela"
 baseurl: "https://covalenzuela.github.io/"
 copyright: '' # Footer text, e.g. '© {year} Me'
 
@@ -19,7 +19,7 @@ security:
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
+defaultContentLanguage: es
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
