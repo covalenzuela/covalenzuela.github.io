@@ -24,13 +24,24 @@ jobs:
           submodules: true
           fetch-depth: 0
 
+      # Configura Pages (recomendado por GitHub)
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      # Go es requerido por "hugo mod"
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.21'
+
+      # Instala Hugo extended
       - name: Setup Hugo (extended)
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.128.2'
           extended: true
 
-      # (Opcional pero recomendado) cache de módulos Go/Hugo
+      # Cache de módulos go/hugo
       - name: Cache Hugo modules
         uses: actions/cache@v4
         with:
@@ -39,15 +50,17 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-go-
 
-      # 💡 Paso clave para Wowchemy/Hugo Blox
+      # Trae módulos de Wowchemy/Hugo Blox
       - name: Hugo modules (get + tidy)
         run: |
           hugo mod get
           hugo mod tidy
 
+      # Compila el sitio
       - name: Build
         run: hugo --minify --gc
 
+      # Sube artefacto para Pages
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
