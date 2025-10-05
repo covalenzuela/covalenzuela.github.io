@@ -58,6 +58,8 @@ jobs:
 
       # Compila el sitio
       - name: Build
+        env:
+          WC_POST_CSS: "1"
         run: hugo --minify --gc
 
       # Sube artefacto para Pages

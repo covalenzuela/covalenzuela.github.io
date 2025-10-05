@@ -7,6 +7,14 @@ title: "Constanza Valenzuela — Portafolio"
 baseurl: "https://covalenzuela.github.io/"
 copyright: '' # Footer text, e.g. '© {year} Me'
 
+# add bloque para que las plantillas de Wowchemy lean WC_POST_CSS
+security:
+  funcs:
+    getenv:
+      - ^HUGO_
+      - ^WC_
+      - ^CI$
+
 ############################
 ## LANGUAGE
 ############################
