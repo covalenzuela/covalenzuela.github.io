@@ -25,7 +25,7 @@ phone: +(56) 9 9809 3113
 address:
   street: 
   city: Talca
-  region: CA
+  region: VII region del Maule
   postcode: ''
   country: Chile
   country_code: CL
@@ -35,7 +35,7 @@ coordinates:
 directions: 
 office_hours:
   - 'Lunes a Viernes: a convenir'
-appointment_url: 'https://calendly.com'
+
 contact_links:
   - icon: linkedin
     icon_pack: fab
@@ -57,7 +57,7 @@ contact_links:
   - icon: discord
     icon_pack: fab
     name: "Discord — cva#1881"
-    link: "https://discord.com/app"
+    link: "https://discord.com/users/720090625172570182"
 
 # Site header
 
