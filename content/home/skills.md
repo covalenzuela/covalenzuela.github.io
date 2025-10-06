@@ -32,36 +32,36 @@ feature:
     icon_pack: fas
     description: 85%
 
-  - name: NLP aplicado (TF–IDF, spaCy, SBERT)
-    icon: robot
-    icon_pack: fas
-    description: 70%
+#  - name: NLP aplicado (TF–IDF, spaCy, SBERT)
+#    icon: robot
+#    icon_pack: fas
+#    description: 70%
 
-  - name: Estadística aplicada
-    icon: chart-line
-    icon_pack: fas
-    description: 70%
+#  - name: Estadística aplicada
+#    icon: chart-line
+#    icon_pack: fas
+#    description: 70%
 
   # ——— Bioinformática / Simulación ———
-  - name: "Genómica aplicada (NGS: FastQC/MultiQC, BWA, GATK, VEP; RNA-seq/DESeq2)"
-    icon: dna
-    icon_pack: fas
-    description: 75%
+#  - name: "Genómica aplicada (NGS: FastQC/MultiQC, BWA, GATK, VEP; RNA-seq/DESeq2)"
+#    icon: dna
+#    icon_pack: fas
+#    description: 75%
 
-  - name: "Simulación molecular (MD: GROMACS; análisis RMSD/RMSF; VMD)"
-    icon: microscope
-    icon_pack: fas
-    description: 70%
+#  - name: "Simulación molecular (MD: GROMACS; análisis RMSD/RMSF; VMD)"
+#    icon: microscope
+#    icon_pack: fas
+#    description: 70%
 
-  - name: Modelado por homología + visualización (PyMOL/VMD)
-    icon: cubes
-    icon_pack: fas
-    description: 65%
+#  - name: Modelado por homología + visualización (PyMOL/VMD)
+#    icon: cubes
+#    icon_pack: fas
+#    description: 65%
 
-  - name: Docking molecular (AutoDock Vina)
-    icon: flask
-    icon_pack: fas
-    description: 60%
+#  - name: Docking molecular (AutoDock Vina)
+#    icon: flask
+#    icon_pack: fas
+#    description: 60%
 
   # ——— Ingeniería / MLOps ———
   - name: APIs con FastAPI (REST, Pydantic)
@@ -101,7 +101,7 @@ feature:
     description: 80%
 
   - name: UX de datos (prototipos y flujos — Figma)
-    icon: pen-nib
+    icon: figma
     icon_pack: fas
     description: 60%
 
