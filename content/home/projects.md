@@ -30,13 +30,13 @@ content:
   - name: Deep Learning
     tag: Deep Learning
   - name: Bootcamp ML
-      tag: Bootcamp ML
+    tag: Bootcamp ML
   - name: ML clásico
-      tag: ML clásico
+    tag: ML clásico
   - name: NLP
-      tag: NLP
+    tag: NLP
   - name: Clustering
-      tag: Clustering
+    tag: Clustering
   - name: Otro
     tag: Demo
 

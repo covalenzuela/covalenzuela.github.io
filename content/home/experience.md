@@ -65,5 +65,5 @@ experience:
     description: |-
       - Tutorías para enseñanza media y primer año universitario.
       - Preparación de material, **rúbricas** y ejercicios guiados; foco en pensamiento analítico.
-      
+
 ---
