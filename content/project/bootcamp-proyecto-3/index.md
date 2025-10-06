@@ -1,10 +1,10 @@
 ---
-title: "Bootcamp ML — Proyecto 3"
-summary: "Experimentos (NLP/Clustering) y documentación; materiales en Drive."
+title: "Bootcamp ML — Proyecto 3 (Módulo 8 · Sesión 3): Sentiment con Transformers"
+summary: "Actividad de clase: pipeline de Hugging Face para sentimiento en reseñas clínicas con BERT multilingüe."
 date: 2025-10-06
 type: project
 categories: ["educativos"]
-tags: ["Bootcamp ML","NLP","Clustering","Evaluación"]
+tags: ["Bootcamp ML","NLP","Transformers","BERT","Sentiment"]
 links:
   - icon: google-drive
     icon_pack: fab
@@ -12,4 +12,9 @@ links:
     url: "https://drive.google.com/drive/folders/1fIaNHJlBGXaUnhkFL9o6bo2c4X7xOkvJ?usp=sharing"
 ---
 
-**Descripción.** Experimentos, métricas y documentación final del módulo; riesgos/limitaciones y pequeñas ideas de despliegue.
+**Qué fue.** **Actividad de la Sesión 3 (Módulo 8)**: usar **Transformers** para **análisis de sentimiento** en reseñas clínicas (modo inferencia).  
+**Modelo.** `nlptown/bert-base-multilingual-uncased-sentiment` (Hugging Face).  
+**Pasos.** Crear dataset simulado (≥10 reseñas), ejecutar **pipeline** de `sentiment-analysis`, mostrar **texto + predicción + score** y reflexionar sobre resultados.  
+**Análisis.** Ventajas frente a TF-IDF, **limitaciones** del modelo y adaptabilidad del enfoque moderno.
+
+**Stack.** Python 3, **transformers**, **torch**, pandas (Colab u otro IDE).
