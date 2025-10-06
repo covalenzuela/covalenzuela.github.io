@@ -43,12 +43,12 @@ feature:
     description: 70%
 
   # ——— Bioinformática / Simulación ———
-  - name: Genómica aplicada (NGS: FastQC/MultiQC, BWA, GATK, VEP; RNA-seq/DESeq2)
+  - name: "Genómica aplicada (NGS: FastQC/MultiQC, BWA, GATK, VEP; RNA-seq/DESeq2)"
     icon: dna
     icon_pack: fas
     description: 75%
 
-  - name: Simulación molecular (MD: GROMACS; análisis RMSD/RMSF; VMD)
+  - name: "Simulación molecular (MD: GROMACS; análisis RMSD/RMSF; VMD)"
     icon: microscope
     icon_pack: fas
     description: 70%
