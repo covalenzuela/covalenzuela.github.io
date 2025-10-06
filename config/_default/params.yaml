@@ -20,40 +20,44 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
-phone: 888 888 88 88
+email: conifva6@gmail.com
+phone: +(56) 9 9809 3113
 address:
-  street: 450 Serra Mall
-  city: Stanford
+  street: 
+  city: Talca
   region: CA
-  postcode: '94305'
-  country: United States
-  country_code: US
+  postcode: ''
+  country: Chile
+  country_code: CL
 coordinates:
-  latitude: '37.4275'
-  longitude: '-122.1697'
-directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+  latitude: 
+  longitude: 
+directions: 
 office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Wednesday 09:00 to 10:00'
+  - 'Lunes a Viernes: a convenir'
 appointment_url: 'https://calendly.com'
 contact_links:
-  - icon: twitter
+  - icon: linkedin
     icon_pack: fab
-    name: DM Me
-    link: 'https://twitter.com/Twitter'
-  - icon: skype
+    name: LinkedIn
+    link: "https://www.linkedin.com/in/constanza-valenzuelaaraya/"
+
+  - icon: github
     icon_pack: fab
-    name: Skype Me
-    link: 'skype:echo123?call'
-  - icon: keybase
-    icon_pack: fab
-    name: Chat on Keybase
-    link: 'https://keybase.io/'
-  - icon: comments
+    name: GitHub
+    link: "https://github.com/covalenzuela"
+
+  # Proponer reunión con Google Calendar
+  - icon: calendar
     icon_pack: fas
-    name: Discuss on Forum
-    link: 'https://discourse.gohugo.io'
+    name: Proponer reunión (Google Calendar)
+    link: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Reuni%C3%B3n%20con%20Constanza&location=Google%20Meet&details=Por%20favor%20a%C3%B1ade%20%22Google%20Meet%22%20y%20env%C3%ADame%20la%20invitaci%C3%B3n."
+
+  # Discord (sin ID numérico: abre la app; muestra tu handle)
+  - icon: discord
+    icon_pack: fab
+    name: "Discord — cva#1881"
+    link: "https://discord.com/app"
 
 # Site header
 

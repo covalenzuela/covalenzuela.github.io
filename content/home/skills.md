@@ -102,7 +102,7 @@ feature:
 
   - name: UX de datos (prototipos y flujos — Figma)
     icon: figma
-    icon_pack: fas
+    icon_pack: fab
     description: 60%
 
 # Uncomment to use emoji icons.
