@@ -20,6 +20,7 @@ security:
 ############################
 
 defaultContentLanguage: es
+# languageCode: "es-CL"
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
