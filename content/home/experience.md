@@ -41,10 +41,10 @@ experience:
     date_start: "2024-06-01"
     date_end: ""
     description: |2-
-    - Preprocesamiento interactivo de **reads bioinfo (FASTQ)**: QC parametrizable (FastQC/MultiQC), trimming/adapters, filtrado por calidad/longitud, desduplicación y demultiplexado — con **vista previa del impacto** y **exportación reproducible**.
-    - **MetaFoodCraft**: **recomendador de productos alimenticios** personalizado según **gustos**, **alergias** y **preferencias**; adapta sugerencias a **metas nutricionales** y **presupuesto**, filtra alérgenos, propone **sustituciones equivalentes** y genera listas de compra **inteligentes** (catálogo propio/externo).
-    - **Optic Mouse**: **monitoreo de visión** mediante historial de **recetas ópticas** (ESF/CIL/EJE/ADD/AV) con normalización y comparación longitudinal; **visor 3D** (WebGL/Three.js) para explorar el ojo vs. referencia y **módulo educativo**.
-    - Infraestructura: **APIs FastAPI**, **SQL**, contenedorización **Docker** y **GitHub Actions** (CI ligera); versionado básico de datasets y data cards; enfoque **privacy-first**.
+    - "Preprocesamiento interactivo de **reads bioinfo (FASTQ)**: QC parametrizable (FastQC/MultiQC), trimming/adapters, filtrado por calidad/longitud, desduplicación y demultiplexado — con **vista previa del impacto** y **exportación reproducible**."
+    - "**MetaFoodCraft**: **recomendador de productos alimenticios** personalizado según **gustos**, **alergias** y **preferencias**; adapta sugerencias a **metas nutricionales** y **presupuesto**, filtra alérgenos, propone **sustituciones equivalentes** y genera listas de compra **inteligentes** (catálogo propio/externo)."
+    - "**Optic Mouse**: **monitoreo de visión** mediante historial de **recetas ópticas** (ESF/CIL/EJE/ADD/AV) con normalización y comparación longitudinal; **visor 3D** (WebGL/Three.js) para explorar el ojo vs. referencia y **módulo educativo**."
+    - "Infraestructura: **APIs FastAPI**, **SQL**, contenedorización **Docker** y **GitHub Actions** (CI ligera); versionado básico de datasets y data cards; enfoque **privacy-first**."
 
   - title: "Colaboraciones académicas"
     company: "Proyectos con docentes (educación diferencial)"
